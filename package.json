@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"cd server && dotnet run\" \"cd client && npm run dev\"",
+    "server-install": "cd server && dotnet restore",
+    "client-install": "cd client && npm install",
+    "install": "npm run server-install && npm run client-install"
+  }
+}
