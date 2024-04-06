@@ -1,0 +1,42 @@
+[
+    {
+        "title" : "Final Fantasy 7: Rebirth",
+        "featured" : true,
+        "price" : 79.99,
+        "platforms" : [ "PS5" ],
+        "genre" : [ "RPG" ],
+        "images" : [ "url goes here" ],
+        "releaseDate" : "2024-02-29"
+    },
+
+    {
+        "title": "Diablo 4",
+        "featured": true,
+        "price": 69.99,
+        "platforms" : [ "PS4", "PS5", "PC", "Xbox One", "Xbox Series X/S" ],
+        "genre" : [ "RPG" ],
+        "images" : [ "url goes here" ],
+        "releaseDate" : "2023-06-05"
+    },
+
+    {
+        "title": "Dragon Ball FighterZ",
+        "featured": false,
+        "price": 49.99,
+        "platforms" : [ "PS4", "PS5", "Nintendo Switch", "PC", "Xbox One", "Xbox Series X/S" ],
+        "genre" : [ "Fighting" ],
+        "images" : [ "url goes here" ],
+        "releaseDate" : "2018-01-26"
+    },
+
+    {
+        "title": "Super Smash Bros. Ultimate",
+        "featured": false,
+        "price": 59.99,
+        "platforms" : [ "Nintendo Switch" ],
+        "genre" : [ "Fighting" ],
+        "images" : [ "url goes here" ],
+        "releaseDate" : "2018-12-07"
+    }
+
+]

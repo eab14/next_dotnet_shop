@@ -1,0 +1,16 @@
+[
+    {
+        "title" : "Final Fantasy 7: Rebirth",
+        "image" : "http://res.cloudinary.com/dfhe35dwt/image/upload/v1707163058/ycu7uldkgzkayeaxuxp5.jpg",
+        "status" : "Pre-Order",
+        "description" : "Description goes here..."
+    },
+
+    {
+        "title" : "Diablo 4",
+        "image" : "http://res.cloudinary.com/dfhe35dwt/image/upload/v1707166966/emebqfhuvjygwj2ifyvo.jpg",
+        "status" : "Now Available",
+        "description" : "Description goes here..."
+    }
+
+]

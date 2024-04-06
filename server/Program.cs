@@ -5,10 +5,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.Configure<VueNetDatabaseSettings>(
-    builder.Configuration.GetSection("VueNetDatabase"));
+builder.Services.Configure<NextNetDatabaseSettings>(
+    builder.Configuration.GetSection("NextNetDatabase"));
 
+builder.Services.AddSingleton<ProductsService>();
+builder.Services.AddSingleton<FeaturedProductsService>();
 builder.Services.AddSingleton<UsersService>();
+builder.Services.AddSingleton<OrdersService>();
 
 var app = builder.Build();
 

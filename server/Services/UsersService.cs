@@ -15,16 +15,16 @@ public class UsersService
     private readonly IMongoCollection<User> _usersCollection;
 
     public UsersService(
-        IOptions<VueNetDatabaseSettings> vueNetDatabaseSettings)
+        IOptions<NextNetDatabaseSettings> nextNetDatabaseSettings)
     {
         var mongoClient = new MongoClient(
-            vueNetDatabaseSettings.Value.ConnectionString);    
+            nextNetDatabaseSettings.Value.ConnectionString);    
 
         var mongoDatabase = mongoClient.GetDatabase(
-            vueNetDatabaseSettings.Value.DatabaseName);
+            nextNetDatabaseSettings.Value.DatabaseName);
 
         _usersCollection = mongoDatabase.GetCollection<User>(
-            vueNetDatabaseSettings.Value.UsersCollectionName);
+            nextNetDatabaseSettings.Value.UsersCollectionName);
     }
 
     public async Task<List<User>> GetAsync() =>
