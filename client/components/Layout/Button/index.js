@@ -1,6 +1,8 @@
+import styles from './Button.module.css';
+
 const Button = (props) => {
 
-    return (<>Button for layout goes here</>)
+    return (<div className={styles.test_button}>Test</div>)
 
 }
 
