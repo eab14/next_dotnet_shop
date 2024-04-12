@@ -1,0 +1,14 @@
+:root {
+    /* --main_color: #942828; */
+    /* --accent_color: #c73e3e; */
+    --main_color: #2e4258;
+    --accent_color: #667e96;
+    --white: #f4f4f4;
+    --black: #141414;
+    --grey: #aaa;
+}
+
+.flex { display: flex; }
+.center { justify-content: center; align-items: center; }
+.row { flex-direction: row; }
+.col { flex-direction: column; }
