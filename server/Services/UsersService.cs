@@ -33,6 +33,10 @@ public class UsersService
     public async Task<User?> GetAsync(string id) =>
         await _usersCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
 
+    public async Task<User> GetUserByEmailAsync(string email)  => 
+        await _usersCollection.Find(user => user.Email == email).FirstOrDefaultAsync();
+ 
+
     public async Task CreateAsync(User newUser)
     {
 
