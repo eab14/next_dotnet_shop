@@ -1,1 +1,3 @@
 // cart context goes here
+// want this to access the session, be able to update the session's cart object variables
+// functions like change quantity, delete item, add item, etc...
